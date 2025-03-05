@@ -1,4 +1,4 @@
- window.onload = function() {
-            const message = document.createTextNode("DOM load success");
-            document.body.appendChild(message);
-        };
+ document.addEventListener("DOMContentLoaded", function() {
+            // Write "DOM load success" to the body of the document
+            document.body.textContent = "DOM load success";
+        });
